@@ -77,7 +77,6 @@ footer{
 #overlayL{
 	position: absolute;
 	left:10px;
-	//margin-right:120px;
 	}
 #overlayR{
 	position: absolute;
@@ -98,11 +97,9 @@ footer{
 }
 
 .nav{
-	//float:left;
 	width:25%;
 	padding-top: 20px;
     padding-bottom: 20px;
-   // margin-bottom: 20px;
     
 }
 
