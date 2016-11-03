@@ -61,11 +61,29 @@ footer{
 #img_lg{
 	height: 200px;
 	width: 200px;
+	margin: 0px 10px 0px 10px;
 }
-#overlay{
+#img_block{
 	position: relative;
-	//float: left;
+	margin: 0px 25px 30px 25px;
 }
+#overlayR,#overlayL{
+	bottom: 30px;
+	background: #4aaaa5;
+	width:200px;
+	float: left;
+
+}
+#overlayL{
+	position: absolute;
+	left:10px;
+	//margin-right:120px;
+	}
+#overlayR{
+	position: absolute;
+	left:235px;
+	float: left;
+	}
 .container{
 	width: 1000px;
 	margin: 0 auto;
