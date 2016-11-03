@@ -5,6 +5,7 @@ body{
    	font-family: "Georgia", "Times New Roman" ,Times,serif;
    	font-size: 18px;
    	line-height: 30px;
+   	color: #777777;
 }
 h1 {
     text-align: center;
@@ -23,9 +24,9 @@ h2{
 	font-size: 24px;
 	padding-bottom: 20px;
 	padding-top: 20px;
+	color: #4aaaa5;
 }
 ul {
-    //list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -38,25 +39,26 @@ p {
     text-align: left;
 }
 
-a {
-	color:#d21034;
-}
-
 img {
 	height: 50px;
 	width: 50px;
 }
 footer{
-
+	position:relative;
 	clear:both;
 	background-color: #666666;
 	text-align: center;
 	padding: 15px;
 	border-style: solid;
-	//border-top: 10px;
 	border-color:#4aaaa5;
 	border-width: 5px 0px 0px 0px;
-	background-color: #dddddd;
+	color: #efeee7;
+}
+ #img_main{
+    float: left;
+    margin: 0px 20px 20px 20px;
+    width: 200px;
+    height: 250px;
 }
 #img_lg{
 	height: 200px;
@@ -66,14 +68,15 @@ footer{
 #img_block{
 	position: relative;
 	margin: 0px 25px 30px 25px;
+	float: left;
 }
 #overlayR,#overlayL{
 	bottom: 30px;
 	background: #4aaaa5;
 	width:200px;
 	float: left;
-
 }
+
 #overlayL{
 	position: absolute;
 	left:10px;
