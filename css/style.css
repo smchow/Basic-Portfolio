@@ -1,105 +1,110 @@
-* {
-
-  box-sizing: border-box;
-
+body{
+	background-color: #efeee7;
+	margin: 0;
+   	padding: 0;
+   	font-family: "Georgia", "Times New Roman" ,Times,serif;
+   	font-size: 18px;
+   	line-height: 30px;
 }
-
-body {
-
-	font-size: 24px;
-	line-height: 32px;
-	color: #333;
-	//background: red;
-}
-
-li {
-	float:left;
-}
-
-
-.wrapper {
-
-	width: 600px;
-
-	margin: 0 auto 0 auto;
-
-	padding: 20px;
-
-}
-
 h1 {
-
-	font-size: 36px;
-
-	line-height: 45px;
-
-	margin-bottom: 20px;
-
+    text-align: center;
+    font-size: 28px;
+    color: #efeee7;
+    background-color: #4aaaa5;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 300px;
+    width:25%;
+    float: left;
+    margin-right: 100px;
+}
+h2{
+	font-size: 24px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+ul {
+    //list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
 }
 
 p {
+    text-align: left;
+}
 
-	font-size: 18px;
-
-	line-height: 28px;
-
-	margin-bottom: 20px;
-
+a {
+	color:#d21034;
 }
 
 img {
-	height: 30px;
-	width: 30px;
+	height: 50px;
+	width: 50px;
 }
+footer{
 
-#fixed {
-
-	position: fixed;
-
-	background: #eee;
-
-	padding: 40px;
-
+	clear:both;
+	background-color: #666666;
 	text-align: center;
-
-	margin: 0;
-
-	top: 0;
-
-	left: 0;
-
+	padding: 15px;
+	border-style: solid;
+	//border-top: 10px;
+	border-color:#4aaaa5;
+	border-width: 5px 0px 0px 0px;
+	background-color: #dddddd;
 }
-
-#main {
-
-	position: relative;
-
-	background: #eee;
-
-	padding: 20px;
-
-	margin-bottom: 20px;
-
-	text-align: center;
-
+#img_lg{
 	height: 200px;
-
+	width: 200px;
+}
+#overlay{
+	position: relative;
+	//float: left;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	clear:both;
+	//padding: 30px;
+	border-style: solid;
+	//border-top: 10px;
+	border-color:#cccccc;
+	border-width: 5px 0px 0px 0px;
+	padding-top: 20px;
+	background-color: #dddddd;
 }
 
-#absolute {
+.nav{
+	//float:left;
+	width:25%;
+	padding-top: 20px;
+    padding-bottom: 20px;
+   // margin-bottom: 20px;
+    
+}
 
-	width: 250px;
+.head{
+	width: 700px;
+}
 
-	position: absolute;
-
-	background: #999;
-
+#main,#side {
+	float: left;
 	padding: 20px;
-
-	bottom: 0;
-
-	right: -30px;
-
-	text-align: center;
-
 }
+#main{
+	width: 50%;
+	background-color: #ffffff;
+	margin:40px;
+}
+#side{
+	width:20%;
+	background-color: #ffffff;
+	margin:40px;
+}
+
+
