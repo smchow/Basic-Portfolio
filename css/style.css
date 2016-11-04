@@ -22,8 +22,8 @@ h1 {
 }
 h2{
 	font-size: 24px;
-	padding-bottom: 20px;
-	padding-top: 20px;
+	padding-bottom: 5px;
+	padding-top: 10px;
 	color: #4aaaa5;
 }
 ul {
@@ -54,34 +54,35 @@ footer{
 	border-width: 5px 0px 0px 0px;
 	color: #efeee7;
 }
- #img_main{
+ .img_main{
     float: left;
     margin: 0px 20px 20px 20px;
     width: 200px;
     height: 250px;
 }
-#img_lg{
+.img_lg{
 	height: 200px;
 	width: 200px;
 	margin: 0px 10px 0px 10px;
 }
-#img_block{
+.img_block{
 	position: relative;
 	margin: 0px 25px 30px 25px;
 	float: left;
-}
-#overlayR,#overlayL{
+}.overlayR,.overlayL{
 	bottom: 30px;
 	background: #4aaaa5;
 	width:200px;
 	float: left;
+	text-align: center;
+	color: # 777777;
 }
 
-#overlayL{
+.overlayL{
 	position: absolute;
 	left:10px;
 	}
-#overlayR{
+.overlayR{
 	position: absolute;
 	left:235px;
 	float: left;
@@ -110,16 +111,16 @@ footer{
 	width: 700px;
 }
 
-#main,#side {
+.main,.side {
 	float: left;
 	padding: 20px;
 }
-#main{
+.main{
 	width: 50%;
 	background-color: #ffffff;
 	margin:40px;
 }
-#side{
+.side{
 	width:20%;
 	background-color: #ffffff;
 	margin:40px;
