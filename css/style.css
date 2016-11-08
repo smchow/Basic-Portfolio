@@ -15,7 +15,7 @@ h1 {
     margin: 0;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 300px;
+    margin-left: 150px;
     width:25%;
     float: left;
     margin-right: 100px;
@@ -44,7 +44,8 @@ img {
 	width: 50px;
 }
 footer{
-	position:relative;
+	position:absolute;
+	bottom:0;
 	clear:both;
 	background-color: #666666;
 	text-align: center;
@@ -91,6 +92,7 @@ footer{
 .container{
 	width: 100%;
 	margin: 0 auto;
+	height:100%;
 	clear:both;
 	//padding: 30px;
 	border-style: solid;
