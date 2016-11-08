@@ -53,6 +53,7 @@ footer{
 	border-color:#4aaaa5;
 	border-width: 5px 0px 0px 0px;
 	color: #efeee7;
+	width:100%;
 }
  .img_main{
     float: left;
@@ -88,7 +89,7 @@ footer{
 	float: left;
 	}
 .container{
-	width: 1000px;
+	width: 100%;
 	margin: 0 auto;
 	clear:both;
 	//padding: 30px;
